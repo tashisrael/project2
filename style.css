@@ -524,14 +524,17 @@ footer .contact-info p i {
     nav{
         justify-content: space-between;
         padding: 0 42px;
+        z-index: 10;
     }
 
     nav ul{
-        display: none;
+        display: none; 
         flex-direction: column; 
-        width: 100%; 
+        width: 100px; /* Set the width you prefer */ 
         padding: 0; 
         margin: 0; 
+        background-color: #deebee; /* Match your footer color */  
+        top: 60px; /* Adjust as needed */  
     }
 
     nav.open .logo{
