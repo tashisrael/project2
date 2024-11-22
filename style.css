@@ -528,13 +528,20 @@ footer .contact-info p i {
     }
 
     nav ul{
-        display: none; 
-        flex-direction: column; 
-        width: 100px; /* Set the width you prefer */ 
-        padding: 0; 
-        margin: 0; 
-        background-color: #deebee; /* Match your footer color */  
-        top: 60px; /* Adjust as needed */  
+        display: none; /* Initially hidden */
+        flex-direction: column; /* Stack links vertically */
+        width: 100%; /* Take full width of the container */
+        padding: 0;
+        margin: 0;
+        background-color: #deebee; /* Match your theme */
+        position: absolute; /* Position the dropdown menu */
+        top: 50px; /* Space below the navbar logo */
+        left: 0; 
+    }
+
+    nav ul li {
+        text-align: center; /* Center align links */
+        width: 100%;
     }
 
     nav.open .logo{
