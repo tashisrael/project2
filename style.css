@@ -524,6 +524,7 @@ footer .contact-info p i {
     nav{
         justify-content: space-between;
         padding: 0 42px;
+        flex-direction: column;
     }
 
     nav ul{
