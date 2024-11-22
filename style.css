@@ -535,7 +535,7 @@ footer .contact-info p i {
         margin: 0;
         background-color: #deebee; /* Match your theme */
         position: absolute; /* Position the dropdown menu */
-        top: 50px; /* Space below the navbar logo */
+        top: 54px; /* Space below the navbar logo */
         left: 0; 
     }
 
@@ -544,21 +544,34 @@ footer .contact-info p i {
         width: 100%;
     }
 
+    nav ul li a {
+        display: block; /* Ensure links take full width */
+        padding: 0.50rem;
+        color: #333; /* Adjust text color */
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    nav ul li a:hover {
+        background-color: #cbd4d7; /* Hover background */
+    }
+
     nav.open .logo{
         display: none;
     }
 
     nav.open ul{
         display: flex; 
-        align-items: center;
     }
 
     nav button#menuButton{
-        display: flex; 
-        background: none; 
-        border: none; 
-        font-size: 22px; 
+        display: flex; /* Show menu button */
+        background: none;
+        border: none;
+        font-size: 1.5rem; /* Size for better visibility */
         cursor: pointer;
+        position: absolute;
+        right: 1rem;
     }
 
     .main{
